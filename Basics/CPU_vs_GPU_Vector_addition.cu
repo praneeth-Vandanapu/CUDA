@@ -1,3 +1,13 @@
+/**
+ * @file        CPU_vs_GPU_Vector_addition.cu
+ * @brief       A simple CUDA kernel program to basic vector addition.
+ * @details     This program demonstrates how to peform vector addition using both CPU and GPU.
+*               It initializes two vectors, performs addition on the CPU, and then on the GPU,
+ * @author      Praneeth Vandanapu
+ * @date        July 23, 2025
+ * @Linkedin    https://www.linkedin.com/in/praneeth-vandanapu-28889419b/
+ * @license     MIT License (see LICENSE file in root directory)
+ */
 #include <iostream>
 #include <chrono>
 #include <thread>
